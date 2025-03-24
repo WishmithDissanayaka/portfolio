@@ -10,13 +10,10 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
-// Note: Georgia is not available in next/font/google, so we'll use system font
-// We'll apply it via CSS
-
 export const metadata: Metadata = {
-  title: "Luther - Portfolio",
+  title: "Wishmith - Portfolio",
   description: "Personal portfolio website of Wishmith, a digital designer & frontend developer",
-    generator: 'v0.dev'
+  icons: "portfolio.jpeg",
 }
 
 export default function RootLayout({
@@ -27,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="null" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="null" />
+        <link rel="icon" type="image/png" sizes="16x16" href="null" />
       </head>
       <body className={`${inter.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
