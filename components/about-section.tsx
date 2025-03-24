@@ -151,16 +151,13 @@ export default function AboutSection() {
                     <path d="M9 16h6"></path>
                   </svg>
                 </div>
-                <span className="text-sm text-muted-foreground">2023</span>
+                <span className="text-sm text-muted-foreground">2024</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Introduction to Packet Tracer</h3>
+              <h3 className="text-lg font-semibold mb-2"> CCNAv7: Introduction to Networks</h3>
               <p className="text-muted-foreground mb-4">Cisco</p>
               <div className="flex justify-between items-center">
-                <span className="text-sm font-medium"> 2024
+                <span className="text-sm font-medium">
                 </span>
-                <a href="#" className="text-primary hover:underline text-sm">
-                  Verify
-                </a>
               </div>
             </div>
 
@@ -182,15 +179,12 @@ export default function AboutSection() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
-                <span className="text-sm text-muted-foreground">2022</span>
+                <span className="text-sm text-muted-foreground">2024</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Professional Frontend Developer</h3>
-              <p className="text-muted-foreground mb-4">Meta (Facebook)</p>
+              <h3 className="text-lg font-semibold mb-2"> CCNAv7: Switching, Routing, and
+              Wireless Essentials</h3>
+              <p className="text-muted-foreground mb-4">Cisco</p>
               <div className="flex justify-between items-center">
-                <span className="text-sm font-medium">Credential ID: META-789012</span>
-                <a href="#" className="text-primary hover:underline text-sm">
-                  Verify
-                </a>
               </div>
             </div>
 
@@ -214,16 +208,11 @@ export default function AboutSection() {
                     <path d="M2 12h20"></path>
                   </svg>
                 </div>
-                <span className="text-sm text-muted-foreground">2021</span>
+                <span className="text-sm text-muted-foreground">2024</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">UI/UX Design Certification</h3>
-              <p className="text-muted-foreground mb-4">Google</p>
-              <div className="flex justify-between items-center">
-                <span className="text-sm font-medium">Credential ID: GGL-345678</span>
-                <a href="#" className="text-accent hover:underline text-sm">
-                  Verify
-                </a>
-              </div>
+              <h3 className="text-lg font-semibold mb-2">CCNAv7: Enterprise Networking,
+              Security, and Automation</h3>
+              <p className="text-muted-foreground mb-4">Cisco</p>
             </div>
           </div>
         </div>

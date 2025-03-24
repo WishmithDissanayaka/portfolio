@@ -14,12 +14,12 @@ export default function ContactSection() {
           <div>
             <h3 className="text-pretitle mb-2">Reach me at</h3>
             <p className="contact-links">
-              <a href="mailto:hello@example.com" className="animated-underline">
-                hello@example.com
+              <a href="mailto:wishmithdissanayaka@gmail.com" className="animated-underline">
+                wishmithdissanayaka@gmail.com
               </a>{" "}
               <br />
               <a href="tel:+1975432345" className="animated-underline">
-                +197 543 2345
+                +94 76 237 9491
               </a>
             </p>
           </div>
@@ -28,27 +28,12 @@ export default function ContactSection() {
             <h3 className="text-pretitle mb-2">Social</h3>
             <ul className="contact-social">
               <li>
-                <a href="#0" className="animated-underline">
-                  Behance
+                <a href="https://www.linkedin.com/in/wishmith-dissanayaka-b0954a294/" className="animated-underline">
+                  LinkedIn
                 </a>
               </li>
               <li>
-                <a href="#0" className="animated-underline">
-                  Dribble
-                </a>
-              </li>
-              <li>
-                <a href="#0" className="animated-underline">
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a href="#0" className="animated-underline">
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#0" className="animated-underline">
+                <a href="https://github.com/WishmithDissanayaka" className="animated-underline">
                   Github
                 </a>
               </li>

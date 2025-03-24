@@ -20,7 +20,7 @@ export default function WorksSection() {
   const portfolioItems: PortfolioItem[] = [
     {
       id: "01",
-      title: "Retro Camera",
+      title: "",
       category: "Website",
       image: "/placeholder.svg?height=600&width=800",
       description:
@@ -29,7 +29,7 @@ export default function WorksSection() {
     },
     {
       id: "02",
-      title: "The White Lamp",
+      title: "",
       category: "Product Design",
       image: "/placeholder.svg?height=600&width=800",
       description:
@@ -38,8 +38,8 @@ export default function WorksSection() {
     },
     {
       id: "03",
-      title: "Rucksack",
-      category: "Branding",
+      title: "",
+      category: "",
       image: "/placeholder.svg?height=600&width=800",
       description:
         "Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.",
@@ -47,7 +47,7 @@ export default function WorksSection() {
     },
     {
       id: "04",
-      title: "Since Day One",
+      title: "",
       category: "Website",
       image: "/placeholder.svg?height=600&width=800",
       description:
@@ -56,7 +56,7 @@ export default function WorksSection() {
     },
     {
       id: "05",
-      title: "Sand Dunes",
+      title: "",
       category: "Illustration",
       image: "/placeholder.svg?height=600&width=800",
       description:
@@ -65,8 +65,8 @@ export default function WorksSection() {
     },
     {
       id: "06",
-      title: "Minimalismo",
-      category: "Branding",
+      title: "",
+      category: "",
       image: "/placeholder.svg?height=600&width=800",
       description:
         "Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.",
@@ -158,33 +158,8 @@ export default function WorksSection() {
             </div>
           ))}
         </div>
-
-        {/* Testimonials Section */}
-        <div className="mt-20">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="relative py-10 px-8 bg-card rounded-lg shadow-md border border-border">
-              <div className="mb-6">
-                <Image
-                  src="/placeholder.svg?height=80&width=80"
-                  alt="Testimonial avatar"
-                  width={80}
-                  height={80}
-                  className="rounded-full mx-auto"
-                />
-                <div className="mt-4">
-                  <h3 className="text-lg font-semibold">Tim Cook</h3>
-                  <p className="text-sm text-muted-foreground">CEO, Apple</p>
-                </div>
-              </div>
-              <p className="text-lg">
-                Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. Explicabo a
-                quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                Laudantium quia consequatur molestias delectus culpa.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
+        
 
       {/* Project Detail Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>

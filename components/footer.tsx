@@ -5,18 +5,7 @@ export default function Footer() {
     <footer className="py-8 border-t border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-0 text-center md:text-left">
-          <span className="block md:inline-block">© Copyright Luther {currentYear}</span>
-          <span className="block md:inline-block md:ml-4">
-            Design by{" "}
-            <a
-              href="https://www.styleshout.com/"
-              className="text-primary hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              StyleShout
-            </a>
-          </span>
+          <span className="block md:inline-block">© Copyright Wishmith {currentYear}</span>
         </div>
 
         <div>
