@@ -143,11 +143,9 @@ export default function AboutSection() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="text-primary"
+                    className="text-secondary"
                   >
-                    <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3.8a2 2 0 0 0 1.4-.6L10.4 6.2a2 2 0 0 1 1.4-.6h.4a2 2 0 0 1 1.4.6l1.2 1.2a2 2 0 0 0 1.4.6h3.8a2 2 0 0 1 1.2.4Z"></path>
-                    <path d="M12 13v8"></path>
-                    <path d="M9 16h6"></path>
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
                 <span className="text-sm text-muted-foreground">2024</span>
@@ -200,11 +198,9 @@ export default function AboutSection() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="text-accent"
+                    className="text-secondary"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                    <path d="M2 12h20"></path>
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
                 <span className="text-sm text-muted-foreground">2024</span>
@@ -247,7 +243,7 @@ export default function AboutSection() {
                   <h3 className="text-lg font-semibold mb-2">Photography</h3>
                   <p className="text-muted-foreground">
                     I love capturing moments and exploring different perspectives through my camera lens. I particularly
-                    enjoy street photography and landscapes.
+                    enjoy wildlife photography and planetary photography.
                   </p>
                 </div>
               </div>
@@ -273,10 +269,10 @@ export default function AboutSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Painting</h3>
+                  <h3 className="text-lg font-semibold mb-2">Sketching</h3>
                   <p className="text-muted-foreground">
-                    I find peace in expressing myself through watercolors and acrylics. My paintings often reflect my
-                    love for nature and abstract concepts.
+                    I find peace in expressing myself through pictures. My sketches often reflect my
+                    love for automobiles and animations.
                   </p>
                 </div>
               </div>
@@ -285,28 +281,33 @@ export default function AboutSection() {
             <div className="bg-card p-6 rounded-lg shadow-md border border-border">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center shrink-0">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-accent"
-                  >
-                    <path d="M2 3h20" />
-                    <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3" />
-                    <path d="m7 21 5-5 5 5" />
-                  </svg>
+                <svg 
+                  width="24" 
+                  height="24" 
+                  viewBox="-1.5 0 32 32"  
+                  className="text-accent"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g id="icomoon-ignore">
+                  </g>
+                  <path d="M5.867 15.467c-1.173 0-2.133 0.96-2.133 2.133s0.96 2.133 2.133 2.133 2.133-0.96 2.133-2.133-0.96-2.133-2.133-2.133zM5.867 18.667c-0.587 0-1.067-0.48-1.067-1.067s0.48-1.067 1.067-1.067c0.587 0 1.067 0.48 1.067 1.067s-0.48 1.067-1.067 1.067z" fill="#000000">
+
+                  </path>
+                  <path d="M22.933 15.467c-1.173 0-2.133 0.96-2.133 2.133s0.96 2.133 2.133 2.133c1.173 0 2.133-0.96 2.133-2.133s-0.96-2.133-2.133-2.133zM22.933 18.667c-0.587 0-1.067-0.48-1.067-1.067s0.48-1.067 1.067-1.067c0.587 0 1.067 0.48 1.067 1.067s-0.48 1.067-1.067 1.067z" fill="#000000">
+
+                  </path>
+                  <path d="M25.12 11.2l-0.907-4.267c-0.373-1.387-1.44-2.133-2.88-2.133h-13.867c-1.493 0-2.347 0.747-2.773 2.133l-0.96 4.267h-3.733v1.067h3.467v0.053c-1.653 0.107-2.933 1.493-2.933 3.2v7.413h1.6v1.6c0 1.493 1.173 2.667 2.667 2.667s2.667-1.173 2.667-2.667v-1.6h13.867v1.6c0 1.493 1.173 2.667 2.667 2.667s2.667-1.173 2.667-2.667v-1.6h1.6v-7.413c0-1.653-1.28-3.040-2.88-3.2v-0.053h3.413v-1.067h-3.68zM5.707 7.253c0.32-0.96 0.8-1.387 1.76-1.387h13.867c1.013 0 1.6 0.427 1.867 1.333l1.067 5.12h-19.733l1.173-5.067zM6.4 24.533c0 0.907-0.693 1.6-1.6 1.6s-1.6-0.693-1.6-1.6v-1.6h3.2v1.6zM25.6 24.533c0 0.907-0.693 1.6-1.6 1.6s-1.6-0.693-1.6-1.6v-1.6h3.2v1.6zM27.2 15.52v6.347h-25.6v-6.347c0-1.173 0.96-2.133 2.133-2.133h21.333c1.173 0 2.133 0.96 2.133 2.133z" fill="#000000">
+
+                  </path>
+                </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Reading</h3>
+                  <h3 className="text-lg font-semibold mb-2">Cars</h3>
                   <p className="text-muted-foreground">
-                    I'm an avid reader with a particular interest in science fiction, philosophy, and design theory.
-                    Books help me gain new perspectives and inspire my creative work.
+                    I love working on cars and tinkering with them. I like electronics, hardware and enjoy soldering and fixing things.
                   </p>
                 </div>
               </div>
@@ -315,28 +316,41 @@ export default function AboutSection() {
             <div className="bg-card p-6 rounded-lg shadow-md border border-border">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-primary"
-                  >
-                    <path d="M18 8a6 6 0 0 0-9.33-5" />
-                    <path d="m6 15 4-4 4 4 4-4" />
-                    <circle cx="12" cy="12" r="10" />
-                  </svg>
+                <svg version="1.1" id="Capa_1" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24"
+                  height="24"
+                  className="text-accent"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  x="0px" y="0px"
+	                viewBox="0 0 64 64">
+                  <g id="Football-ball_1_">
+	                <path id="Football-ball" d="M32,0C14.355,0,0,14.355,0,32s14.355,32,32,32c17.645,0,32-14.355,32-32S49.645,0,32,0z M61.624,36.731
+		                l-3.885-6.439l2.681-7.88C61.439,25.425,62,28.647,62,32C62,33.61,61.869,35.189,61.624,36.731z M54.066,52.298
+		                c-0.129-0.033-0.267-0.043-0.408-0.02L43.98,53.83c-0.021-0.118-0.057-0.236-0.123-0.345l-5.502-9.17l8.896-13.7h8.428
+		                c0.023,0.108,0.047,0.215,0.105,0.312l5.236,8.678C59.761,44.41,57.335,48.748,54.066,52.298z M43.981,55.855l7.688-1.232
+		                c-3.338,2.906-7.321,5.087-11.706,6.296L43.981,55.855z M12.65,9.1c5.056-4.279,11.541-6.913,18.628-7.082
+		                c0.052,0.138,0.126,0.268,0.24,0.376l5.525,5.214l-2.185,8.156l-14.237,5.465c-0.052-0.042-0.093-0.094-0.154-0.126l-8.87-4.701
+		                L12.65,9.1z M38.386,6.124l-4.283-4.042c3.916,0.273,7.628,1.293,10.989,2.931L38.386,6.124z M21.93,38.737l-0.816-15.554
+		                L35.655,17.6l9.803,12.106l-8.483,13.063L21.93,38.737z M59.305,19.596c-0.031,0.054-0.072,0.098-0.093,0.159l-3.015,8.86h-9.048
+		                L36.882,15.937l2.113-7.887l8.27-1.371c0.176-0.029,0.323-0.114,0.453-0.218C52.768,9.581,56.823,14.156,59.305,19.596z
+		                M10.311,11.307l-0.802,5.561L4.16,20.843C5.595,17.274,7.696,14.045,10.311,11.307z M3.056,24.127
+		                c0.044-0.023,0.09-0.037,0.131-0.068l7.737-5.751l8.158,4.323l0.888,16.936c0.002,0.025,0.013,0.048,0.016,0.073l-7.71,7.629
+		                c-0.066,0.065-0.105,0.145-0.149,0.222L4.734,44.32c-0.028-0.012-0.057-0.009-0.085-0.018C2.953,40.545,2,36.383,2,32
+		                C2,29.275,2.372,26.638,3.056,24.127z M6.078,47.072l5.415,2.322l4.141,7.729C11.72,54.564,8.44,51.119,6.078,47.072z
+		                M18.837,58.951c-0.019-0.064-0.025-0.131-0.058-0.192l-5.317-9.924c0.076-0.043,0.155-0.08,0.22-0.145l8.027-7.942l14.507,3.888
+		                l5.927,9.879c0.05,0.083,0.11,0.154,0.178,0.217l-5.449,6.867C35.285,61.859,33.659,62,32,62C27.28,62,22.814,60.901,18.837,58.951
+		              z"/>
+                  </g>
+                </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Hiking</h3>
+                  <h3 className="text-lg font-semibold mb-2">Football</h3>
                   <p className="text-muted-foreground">
-                    I enjoy exploring trails and connecting with nature. Hiking helps me clear my mind and find
-                    inspiration in natural patterns and landscapes.
+                    I enjoy playing football and juggling a ball with my feet as a way of relieving stress.
                   </p>
                 </div>
               </div>

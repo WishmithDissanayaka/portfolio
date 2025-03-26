@@ -21,20 +21,20 @@ export default function WorksSection() {
     {
       id: "01",
       title: "",
-      category: "Website",
-      image: "/placeholder.svg?height=600&width=800",
+      category: "Smart Sprout Website",
+      image: "/SmartSprout.jpeg?height=600&width=800",
       description:
-        "Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.",
-      link: "https://www.behance.net/",
+        "Smart Sprout marketing website",
+      link: "https://smart-sprout.vercel.app/",
     },
     {
       id: "02",
       title: "",
-      category: "Product Design",
+      category: "Smart Sprout Application",
       image: "/placeholder.svg?height=600&width=800",
       description:
-        "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-      link: "https://www.behance.net/",
+        "Smart Sprout: A platform catering to farmers",
+      link: "https://github.com/SurathW1/Smart-Sprout-1.0",
     },
     {
       id: "03",
@@ -107,28 +107,6 @@ export default function WorksSection() {
                 <h3 className="text-xl font-semibold mt-1">{item.title}</h3>
               </div>
 
-              <div className="absolute top-4 right-4 opacity-0 transform translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                <button
-                  onClick={() => openModal(item)}
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground shadow-md hover:bg-primary/90 transition-all"
-                  aria-label={`View details about ${item.title}`}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                      fill="currentColor"
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
-              </div>
 
               <a
                 href={item.link}
