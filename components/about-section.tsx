@@ -85,23 +85,22 @@ export default function AboutSection() {
                 </div>
                 <div className="timeline__desc">
                   <p>
-                  Second Year - Reading <br /><br />
-                  Second Semester (Reading) <br />
+                  Second Year - Reading <br />
+                  <u>Second Semester (Reading)</u> <br />
                   Client-Server Architectures (Java) <br />
                   Machine Learning and Data Mining (Python, Google Colab) <br />
-                  BSc (Hons) Computer Science (Reading) <br />
                   Software Development Group Project (Application design and development) <br /><br />
-                  First Semester (Completed) <br />
+                  <u>First Semester (Completed)</u> <br />
                   Object Oriented Programming (Java Object Oriented Programming) <br />
                   Software Development Group Project <br />
                   Database Systems (MySQL, NoSQL) <br />
                   Robotic Principles (Python, Matlab, Simulink) <br /><br />
-                  First Year - Completed <br /><br />
-                  Second Semester (Completed) <br />
+                  First Year - Completed <br />
+                  <u>Second Semester (Completed)</u> <br />
                   Software Development II ( Programming with Java) <br />
                   Trends in Computer Science <br />
                   Web Design and Development (HTML, CSS, JavaScript) <br /><br />
-                  First Semester (Completed) <br />
+                  <u>First Semester (Completed)</u> <br />
                   Software Development I (Programming with Python) <br />
                   Mathematics for Computing <br />
                   Computer Systems Fundamentals
