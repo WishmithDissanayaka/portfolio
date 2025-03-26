@@ -5,7 +5,7 @@ export default function ContactSection() {
         <div className="mb-16">
           <h2 className="text-pretitle mb-6 text-primary glow-text">Get In Touch</h2>
           <p className="text-3xl font-semibold max-w-2xl">
-            I love to hear from you. Whether you have a question or just want to chat about design, tech & art — shoot
+            I'd love to hear from you. Whether you have a question or just want to chat about design & tech — shoot
             me a message.
           </p>
         </div>

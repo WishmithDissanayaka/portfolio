@@ -20,7 +20,7 @@ export default function AboutSection() {
     }
 
     window.addEventListener("scroll", handleScroll)
-    handleScroll() // Check initial position
+    handleScroll() 
 
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
