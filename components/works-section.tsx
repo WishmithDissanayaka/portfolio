@@ -31,12 +31,12 @@ export default function WorksSection() {
       id: "02",
       title: "",
       category: "Smart Sprout Application",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/SmartSprout.jpeg?height=600&width=800",
       description:
         "Smart Sprout: A platform catering to farmers",
       link: "https://github.com/SurathW1/Smart-Sprout-1.0",
     },
-    {
+    /* {
       id: "03",
       title: "",
       category: "",
@@ -71,7 +71,7 @@ export default function WorksSection() {
       description:
         "Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.",
       link: "https://www.behance.net/",
-    },
+    }, */
   ]
 
   const openModal = (item: PortfolioItem) => {
