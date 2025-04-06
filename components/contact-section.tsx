@@ -18,7 +18,7 @@ export default function ContactSection() {
                 wishmithdissanayaka@gmail.com
               </a>{" "}
               <br />
-              <a href="tel:+1975432345" className="animated-underline">
+              <a href="tel:+94762379491" className="animated-underline">
                 +94 76 237 9491
               </a>
             </p>
