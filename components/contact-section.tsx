@@ -42,7 +42,7 @@ export default function ContactSection() {
 
           <div>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:wishmithdissanayaka@gmail.com"
               className="inline-block w-full px-6 py-4 bg-secondary text-secondary-foreground text-center rounded-md text-lg hover:bg-secondary/90 transition-colors shadow-md"
             >
               Say Hello.

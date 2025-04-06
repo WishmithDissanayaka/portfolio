@@ -34,7 +34,7 @@ export default function AboutSection() {
           <div className="lg:order-1 order-2">
             <Image
               src="/portfolio.jpeg?height=600&width=450"
-              alt="Luther's profile photo"
+              alt="Wishmith's profile photo"
               width={450}
               height={600}
               className="rounded-lg shadow-lg glow-box mx-auto w-full h-auto object-cover"
